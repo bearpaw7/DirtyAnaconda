@@ -39,7 +39,7 @@ public class Main extends SimpleApplication {
         geom.setLocalTranslation(0f, 50f, -10f);
         rootNode.attachChild(geom);
 
-        Spatial pound = assetManager.loadModel("Models/pound.j3o");
+        Spatial pound = assetManager.loadModel("/Models/pound.j3o");
         Material mat_default = new Material(assetManager, "Common/MatDefs/Misc/ShowNormals.j3md");
         pound.setMaterial(mat_default);
         pound.setLocalScale(2.0f);
